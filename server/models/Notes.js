@@ -18,6 +18,13 @@ const noteSchema = new mongoose.Schema({
         type: String,
         required:true,
     }, 
+    application:{
+        type : string ,
+    },
+    prayer: {
+        type : string
+    }
+    
 
 },
 {timestamps:true});
